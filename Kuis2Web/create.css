@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ff0000; /* Red color for the header text */
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ff0000; /* Red border for the form */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light gray background for the form */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ff0000; /* Red color for labels */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff0000; /* Red background for button */
+    color: #ffffff; /* White text for button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+}
+
+button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+a {
+    color: #ff0000; /* Red color for links */
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    margin-top: 20px;
+    color: #ff0000; /* Red color for messages */
+}
